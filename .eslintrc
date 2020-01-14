@@ -17,6 +17,9 @@
     "expect": true,
     "sinon": true
   },
+  "settings": {
+    "import/ignore": [".scss$"]
+  },
   "parser": "babel-eslint",
   "plugins": ["react", "jsx-a11y", "import"],
   "rules": {

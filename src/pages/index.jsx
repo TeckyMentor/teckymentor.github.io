@@ -6,7 +6,12 @@ import "../static/styles/main.scss";
 
 const IndexPage = () => {
   return (
-    <Layout>
+    <Layout
+      style={{
+        background:
+          "linear-gradient(45deg, rgb(76, 0, 255), transparent), repeating-linear-gradient(45deg, rgb(185, 0, 255) 0%, rgb(185, 0, 255) 5%, transparent 5%, transparent 10%), rgb(216, 118, 255) repeating-linear-gradient(-45deg, rgba(185, 0, 255, 0.5) 0%, rgba(185, 0, 255, 0.5) 5%, transparent 5%, transparent 10%)",
+      }}
+    >
       <SEO title="Home" />
       <div className="hero">
         <section className="hero-section">
