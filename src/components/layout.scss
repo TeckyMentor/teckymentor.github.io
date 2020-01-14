@@ -615,6 +615,20 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
+.home {
+  min-height: calc(100vh);
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: right;
+}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
